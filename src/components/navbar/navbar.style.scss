@@ -1,0 +1,36 @@
+@import './navbar.media';
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid white;
+}
+
+.navbar__list {
+    background: rgba(black, 0.5);
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__item {
+    padding: 20px 0;
+}
+
+.navbar__link {
+    width: 100%;
+    height: 100%;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+@include media();

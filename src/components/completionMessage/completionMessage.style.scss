@@ -1,0 +1,34 @@
+.completion-message-block {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    padding: 0 30px;
+
+}
+
+.completion-message__return-button {
+    border: 0;
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    margin-top: 50px;
+}
+
+.completion-message__repeat-button {
+    margin-top: 20px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+button {
+    &:hover {
+        cursor: pointer;
+    }
+}
+

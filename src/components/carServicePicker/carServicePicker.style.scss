@@ -1,0 +1,68 @@
+.service-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 100px;
+
+    h4 {
+        margin: 10px 20px;
+        text-align: center;
+    }
+}
+
+.service-picker__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+.service-picker__service {
+    label {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    input {
+        margin-left: 10px;
+    }
+
+}
+
+.service-picker__coupon-block {
+    margin-right: 20px;
+
+    input {
+        border: 0;
+        border-bottom: 1px solid black;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    button {
+        margin-left: 10px;
+        background-color: black;
+        color: white;
+        border: 0;
+        padding: 6px 16px;
+    }
+}
+
+.service-picker__coupon-message--true {
+    color: green;
+}
+
+.service-picker__coupon-message--false {
+    color: red;
+}
+
+.car-service__total-price-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 20px;
+}

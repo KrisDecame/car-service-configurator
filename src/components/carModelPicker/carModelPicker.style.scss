@@ -1,0 +1,56 @@
+@import './carModelPicker.media.scss';
+
+.cars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cars__car {
+    input {
+        display: none;
+
+        &:checked ~ p {
+            background-color: hotpink;
+            color: white;
+        }
+    }
+
+    label {
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+        padding: 10px 50px;
+        margin: 0;
+    }
+}
+
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+
+    &:after {
+        content: '';
+        width: 20px;
+        height: 20px;
+        border: 10px solid white;
+        border-top-color: hotpink;
+        border-radius: 50%;
+        animation: spinning 1s linear infinite;
+    }
+}
+
+@keyframes spinning {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@include media();

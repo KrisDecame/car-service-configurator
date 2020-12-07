@@ -1,0 +1,19 @@
+@mixin media {
+
+    @media only screen and (min-width: 800px) {
+
+        .home__title {
+            left: 50%;
+            top: 30vh;
+            margin: 0;
+        }
+
+        .home__logo {
+            left: 0;
+            width: 10vw;
+            transform: none;
+            margin: 0 0 50px 70px;
+        }
+    }
+
+}

@@ -1,0 +1,104 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "model": "Peugeot",
+            "checked": false
+        },
+        {
+            "id": 2,
+            "model": "Volkswagen",
+            "checked": false
+        },
+        {
+            "id": 3,
+            "model": "Citroen",
+            "checked": false
+        },
+        {
+            "id": 4,
+            "model": "Audi",
+            "checked": false
+        },
+        {
+            "id": 5,
+            "model": "BMW",
+            "checked": false
+        },
+        {
+            "id": 6,
+            "model": "Seat",
+            "checked": false
+        },
+        {
+            "id": 7,
+            "model": "Alfa Romeo",
+            "checked": false
+        },
+        {
+            "id": 8,
+            "model": "Kia",
+            "checked": false
+        },
+        {
+            "id": 9,
+            "model": "Hyundai",
+            "checked": false
+        },
+        {
+            "id": 10,
+            "model": "Honda",
+            "checked": false
+        },
+        {
+            "id": 11,
+            "model": "Toyota",
+            "checked": false
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "service": "Zamjena ulja i filtera",
+            "price": 500,
+            "checked": false
+        },
+        {
+            "id": 2,
+            "service": "Promjena pakni",
+            "price": 450,
+            "checked": false
+        },
+        {
+            "id": 3,
+            "service": "Promjena guma",
+            "price": 100,
+            "checked": false
+        },
+        {
+            "id": 4,
+            "service": "Servis klima uređaja",
+            "price": 299,
+            "checked": false
+        },
+        {
+            "id": 5,
+            "service": "Balansiranje guma",
+            "price": 50,
+            "checked": false
+        },
+        {
+            "id": 6,
+            "service": "Zamjena ulja u kočnicama",
+            "price": 229,
+            "checked": false
+        }
+    ],
+    "coupons": [
+        {
+            "code": "Tokić123",
+            "value": 30,
+            "type": "percentage"
+        }
+    ]
+}

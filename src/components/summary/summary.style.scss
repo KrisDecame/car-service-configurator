@@ -1,0 +1,74 @@
+@import './summary.media.scss';
+
+.summary {
+    margin-bottom: 100px;
+    padding: 0 20px;
+
+    h5 {
+        text-align: justify;
+    }
+}
+
+.summary__block-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.summary__single-service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary__price-block {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid #000;
+}
+
+.summary__discount-price-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 10px 0;
+    border-bottom: 2px solid #000;
+
+    * {
+        margin: 5px 0;
+        text-align: right;
+    }
+}
+
+.summary__personal-info-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.summary__name-block,
+.summary__email-block,
+.summary__phone-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    * {
+        word-break: break-alls;
+    }
+}
+
+.summary__remark-block {
+    p {
+        word-break: break-all;
+    }
+}
+
+.summary__edit-button {
+    background-color: hotpink;
+    color: white;
+    border: 0;
+    padding: 6px 16px;
+    border-radius: 6px;
+}
+
+@include media();

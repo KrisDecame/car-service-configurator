@@ -1,0 +1,26 @@
+@mixin media {
+
+    @media only screen and (min-width: 800px) {
+
+        .summary {
+            max-width: 50vw;
+        }
+
+        .summary__block-heading {
+            justify-content: flex-start;
+
+            h3 {
+                margin-right: 20px;
+            }
+
+            button {
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+
+}
+
