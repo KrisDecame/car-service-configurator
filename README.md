@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### 'npm run dev'
+
+This is the recommended script for running the project.\
+Runs the app in the development mode and json server simultaneously.\
+
 ### `npm start`
 
 Runs the app in the development mode.\
